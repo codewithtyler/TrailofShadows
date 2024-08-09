@@ -4,7 +4,7 @@ body {
 
 #nav {
     width: 100%;
-    background: linear-gradient(90deg, rgba(32,32,59,1) 0%, rgba(9,62,122,1) 48%, rgba(83,162,44,1) 100%);
+    background: linear-gradient(90deg, rgba(1,10,27,1) 0%, rgba(18,41,75,1) 48%, rgba(18,62,97,1) 100%);
 }
 
 nav {
@@ -41,6 +41,22 @@ nav {
 #playerStats > div:nth-child(2) > img {
     height: 50px;
     width: 50px;
+}
+
+#playerStats {
+    display: flex;
+}
+
+#levelStats {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#goldStats {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 #playerGold {
