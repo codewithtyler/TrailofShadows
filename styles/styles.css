@@ -2,6 +2,11 @@ body {
     margin: 0;
 }
 
+#nav {
+    width: 100%;
+    background: linear-gradient(90deg, rgba(32,32,59,1) 0%, rgba(9,62,122,1) 48%, rgba(83,162,44,1) 100%);
+}
+
 nav {
     height: 70px;
     display: flex;
@@ -24,10 +29,24 @@ nav {
     align-self: center;
     text-align: center;
     width: 33%;
+    color: #FFFFFF;
 }
 
 #playerStats {
     justify-content: flex-end;
     align-self: center;
     width: 33%;
+}
+
+#playerStats > div:nth-child(2) > img {
+    height: 50px;
+    width: 50px;
+}
+
+#playerGold {
+    color: #ffd700;
+}
+
+footer {
+    filter:Alpha(opacity=60);
 }
