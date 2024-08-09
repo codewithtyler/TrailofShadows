@@ -28,8 +28,11 @@ nav {
     justify-content: center;
     align-self: center;
     text-align: center;
-    width: 33%;
-    color: #FFFFFF;
+    width: 33%;    
+}
+
+#currentLocation, #playerLevel, #playerGold {
+    color: #ffd700;
 }
 
 #playerStats {
@@ -57,10 +60,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-}
-
-#playerGold {
-    color: #ffd700;
 }
 
 footer {
