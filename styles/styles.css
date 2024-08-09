@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px;
+}
+
+#logo {
+    justify-content: flex-start;
+    width: 33%;
+}
+
+#logo > img {
+    height: 70px;
+    width: 70px;
+}
+
+#currentLocation {
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    width: 33%;
+}
+
+#playerStats {
+    justify-content: flex-end;
+    align-self: center;
+    width: 33%;
+}
